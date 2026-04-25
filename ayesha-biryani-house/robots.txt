@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ayeshabiryanihouse.netlify.app/sitemap.xml
