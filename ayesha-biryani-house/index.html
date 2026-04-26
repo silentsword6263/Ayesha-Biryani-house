@@ -28,8 +28,8 @@
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@400;500&family=Noto+Sans+Devanagari:wght@500&display=swap">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@400;500&family=Noto+Sans+Devanagari:wght@500&display=swap">
 
-  <link rel="icon" href="images/logo.svg" type="image/svg+xml">
-  <link rel="icon" href="images/logo.svg" type="image/svg+xml">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="css/styles.css">
 
   <!-- Schema: Restaurant + BreadcrumbList -->
@@ -116,16 +116,10 @@
 
     <!-- HERO -->
     <section class="hero" aria-label="Hero — Ayesha Biryani House">
-      <div class="hero-bg" style="background: linear-gradient(135deg, #5C2E1A 0%, #8B4513 60%, #A0522D 100%);"></div>
+      <video class="hero-bg" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;z-index:0;" autoplay muted loop>
+        <source src="images/biryani-hero.mp4" type="video/mp4">
+      </video>
       <div class="hero-overlay" aria-hidden="true"></div>
-
-      <!-- Left Video -->
-      <div style="position:absolute;left:2%;top:50%;transform:translateY(-50%);width:20%;max-width:240px;z-index:2;">
-        <video width="100%" height="auto" controls muted style="border-radius:12px;box-shadow:0 8px 32px rgba(0,0,0,0.3);">
-          <source src="images/biryani-video.mov" type="video/quicktime">
-          Your browser does not support the video tag.
-        </video>
-      </div>
 
       <!-- Center Content -->
       <div class="hero-content">
@@ -157,13 +151,6 @@
         </div>
       </div>
 
-      <!-- Right Video -->
-      <div style="position:absolute;right:2%;top:50%;transform:translateY(-50%);width:20%;max-width:240px;z-index:2;">
-        <video width="100%" height="auto" controls muted style="border-radius:12px;box-shadow:0 8px 32px rgba(0,0,0,0.3);">
-          <source src="images/mutton-curry-video.mov" type="video/quicktime">
-          Your browser does not support the video tag.
-        </video>
-      </div>
     </section>
 
     <!-- STATS STRIP -->
