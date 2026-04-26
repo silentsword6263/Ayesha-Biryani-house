@@ -1544,14 +1544,14 @@ h1, h2, h3, h4, h5 {
 /* ============================================================
    LOGO IMAGE
    ============================================================ */
-.nav-logo-img { height: 4rem; width: auto; display: block; transition: filter var(--transition), transform var(--transition); }
+.nav-logo-img { height: 5.5rem; width: auto; display: block; transition: filter var(--transition), transform var(--transition); }
 
 .nav-logo-img:hover { transform: scale(1.04); }
 
-.site-header--transparent .nav-logo-img { height: 4rem; width: auto; display: block; transition: filter var(--transition), transform var(--transition); }
+.site-header--transparent .nav-logo-img { height: 5.5rem; width: auto; display: block; transition: filter var(--transition), transform var(--transition); }
 
 .site-header.scrolled .nav-logo-img,
-.site-header--solid .nav-logo-img { height: 4rem; width: auto; display: block; transition: filter var(--transition), transform var(--transition); }
+.site-header--solid .nav-logo-img { height: 5.5rem; width: auto; display: block; transition: filter var(--transition), transform var(--transition); }
 
 .footer-logo-img { height: 3.5rem; width: auto; filter: brightness(0) invert(1); opacity:0.95; margin-bottom: var(--space-4); }
 
