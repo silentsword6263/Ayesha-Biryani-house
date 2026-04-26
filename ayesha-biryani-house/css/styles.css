@@ -5,13 +5,13 @@
 
 /* === CUSTOM PROPERTIES === */
 :root {
-  --clr-primary: #065F46;
-  --clr-primary-dark: #064E3B;
-  --clr-primary-light: #D1FAE5;
-  --clr-secondary: #F0FDF4;
+  --clr-primary: #8B4513;
+  --clr-primary-dark: #5C2E1A;
+  --clr-primary-light: #F5E6D3;
+  --clr-secondary: #FFF8F0;
   --clr-tertiary: #1C1917;
-  --clr-accent: #991B1B;
-  --clr-gold: #D4A017;
+  --clr-accent: #A0522D;
+  --clr-gold: #D4A574;
   --clr-neutral-light: #FAFAF9;
   --clr-neutral-mid: #6B7280;
   --clr-white: #FFFFFF;
@@ -122,7 +122,7 @@ h1, h2, h3, h4, h5 {
   padding-block: var(--space-20);
 }
 
-.section--alt { background-color: #D1FAE5;
+.section--alt { background-color: #F5E6D3;
 }
 
 .section--dark {
@@ -1224,7 +1224,7 @@ h1, h2, h3, h4, h5 {
 }
 
 /* === PAGE HERO (Inner pages) === */
-.page-hero { background: linear-gradient(135deg, #064E3B 0%, #065F46 60%, #047857 100%); padding-block: calc(var(--header-height) + var(--space-16)) var(--space-16); text-align: center; color: var(--clr-white); }
+.page-hero { background: linear-gradient(135deg, #5C2E1A 0%, #8B4513 60%, #A0522D 100%); padding-block: calc(var(--header-height) + var(--space-16)) var(--space-16); text-align: center; color: var(--clr-white); }
 
 .page-hero h1 {
   font-size: clamp(var(--fs-3xl), 5vw, var(--fs-5xl));
@@ -1770,7 +1770,7 @@ h1, h2, h3, h4, h5 {
 /* ============================================================
    ENHANCED PAGE HERO (green gradient)
    ============================================================ */
-.page-hero { background: linear-gradient(135deg, #064E3B 0%, #065F46 60%, #047857 100%); padding-block: calc(var(--header-height) + var(--space-16)) var(--space-16); text-align: center; color: var(--clr-white); }
+.page-hero { background: linear-gradient(135deg, #5C2E1A 0%, #8B4513 60%, #A0522D 100%); padding-block: calc(var(--header-height) + var(--space-16)) var(--space-16); text-align: center; color: var(--clr-white); }
 
 /* ============================================================
    CTA BANNER GRADIENT
