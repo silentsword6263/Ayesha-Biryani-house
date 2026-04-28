@@ -1,0 +1,87 @@
+backend:
+  name: github
+  repo: silentsword6263/Ayesha-Biryani-house
+  branch: main
+  base_url: https://api.netlify.com
+
+media_folder: ayesha-biryani-house/images
+public_folder: images
+
+collections:
+
+  # ── MENU PRICES ─────────────────────────────────────────────
+  - name: menu
+    label: "Menu & Prices"
+    files:
+      - label: "Menu Prices"
+        name: prices
+        file: ayesha-biryani-house/data/menu.json
+        format: json
+        fields:
+          - label: "Starters"
+            name: starters
+            widget: object
+            fields:
+              - {label: "Chicken Lollipop Fry — Half (250g)", name: chicken_lollipop_fry_half, widget: string}
+              - {label: "Chicken Lollipop Fry — Full (500g)", name: chicken_lollipop_fry_full, widget: string}
+              - {label: "Fish Fry — Half", name: fish_fry_half, widget: string}
+              - {label: "Fish Fry — Full", name: fish_fry_full, widget: string}
+              - {label: "Kaleji Pathri Fry", name: kaleji_pathri_fry, widget: string}
+              - {label: "Chicken Kebab — Half (5 pcs)", name: chicken_kebab_half, widget: string}
+              - {label: "Chicken Kebab — Full (10 pcs)", name: chicken_kebab_full, widget: string}
+          - label: "Biryani"
+            name: biryani
+            widget: object
+            fields:
+              - {label: "Chicken Biryani — Quarter (300g)", name: chicken_biryani_quarter, widget: string}
+              - {label: "Chicken Biryani — Half (500g)", name: chicken_biryani_half, widget: string}
+              - {label: "Chicken Biryani — Full (1 kg)", name: chicken_biryani_full, widget: string}
+          - label: "Curries"
+            name: curries
+            widget: object
+            fields:
+              - {label: "Egg Curry — Half (2 eggs)", name: egg_curry_half, widget: string}
+              - {label: "Egg Curry — Full (4 eggs)", name: egg_curry_full, widget: string}
+              - {label: "Egg Masala — Half", name: egg_masala_half, widget: string}
+              - {label: "Egg Masala — Full", name: egg_masala_full, widget: string}
+              - {label: "Chicken Curry — Half (4 pcs)", name: chicken_curry_half, widget: string}
+              - {label: "Chicken Curry — Full (7 pcs)", name: chicken_curry_full, widget: string}
+              - {label: "Mutton Curry — Half", name: mutton_curry_half, widget: string}
+              - {label: "Mutton Curry — Full", name: mutton_curry_full, widget: string}
+              - {label: "Chicken Masala — Half (4 pcs)", name: chicken_masala_half, widget: string}
+              - {label: "Chicken Masala — Full (7 pcs)", name: chicken_masala_full, widget: string}
+              - {label: "Afghani Fish Curry — Quarter", name: afghani_fish_curry_quarter, widget: string}
+              - {label: "Afghani Fish Curry — Half", name: afghani_fish_curry_half, widget: string}
+              - {label: "Afghani Fish Curry — Full", name: afghani_fish_curry_full, widget: string}
+              - {label: "Butter Chicken Curry", name: butter_chicken_curry, widget: string}
+          - label: "Breads"
+            name: breads
+            widget: object
+            fields:
+              - {label: "Rumali Roti (per piece)", name: rumali_roti, widget: string}
+              - {label: "Tandoori Roti — Butter", name: tandoori_roti_butter, widget: string}
+              - {label: "Tandoori Roti — Plain", name: tandoori_roti_plain, widget: string}
+          - label: "Thalis & Combos"
+            name: thalis_combos
+            widget: object
+            fields:
+              - {label: "Special Chicken Thali", name: special_chicken_thali, widget: string}
+              - {label: "Deluxe Thali", name: deluxe_thali, widget: string}
+              - {label: "Biryani & Chicken Curry Combo", name: biryani_chicken_curry_combo, widget: string}
+              - {label: "Chicken Masala Roti Combo", name: chicken_masala_roti_combo, widget: string}
+              - {label: "Butter Chicken Roti Combo", name: butter_chicken_roti_combo, widget: string}
+              - {label: "Mutton Curry with Roti Combo", name: mutton_curry_roti_combo, widget: string}
+              - {label: "Egg Masala with Rumali Roti", name: egg_masala_rumali_roti, widget: string}
+              - {label: "Egg Masala with Tandoori Roti", name: egg_masala_tandoori_roti, widget: string}
+
+  # ── BLOG POSTS ──────────────────────────────────────────────
+  - name: blog
+    label: "Blog Posts"
+    folder: ayesha-biryani-house/posts
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Title", name: title, widget: string}
+      - {label: "Date", name: date, widget: datetime}
+      - {label: "Summary (shown on blog list)", name: summary, widget: string}
+      - {label: "Content", name: body, widget: markdown}
