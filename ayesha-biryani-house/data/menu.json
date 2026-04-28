@@ -1,6 +1,6 @@
 {
   "starters": {
-    "chicken_lollipop_fry_half": "₹110",
+    "chicken_lollipop_fry_half": "₹2000",
     "chicken_lollipop_fry_full": "₹200",
     "fish_fry_half": "₹120",
     "fish_fry_full": "₹240",
@@ -14,20 +14,20 @@
     "chicken_biryani_full": "₹240"
   },
   "curries": {
-    "egg_curry_half": "₹70",
-    "egg_curry_full": "₹140",
     "egg_masala_half": "₹80",
-    "egg_masala_full": "₹160",
-    "chicken_curry_half": "₹110",
-    "chicken_curry_full": "₹200",
+    "egg_curry_full": "₹140",
     "mutton_curry_half": "₹200",
-    "mutton_curry_full": "₹400",
-    "chicken_masala_half": "₹150",
-    "chicken_masala_full": "₹300",
-    "afghani_fish_curry_quarter": "₹120",
-    "afghani_fish_curry_half": "₹240",
+    "egg_curry_half": "₹70",
     "afghani_fish_curry_full": "₹340",
-    "butter_chicken_curry": "Ask in-store"
+    "afghani_fish_curry_half": "₹240",
+    "chicken_masala_full": "₹300",
+    "chicken_masala_half": "₹150",
+    "chicken_curry_full": "₹200",
+    "chicken_curry_half": "₹110",
+    "afghani_fish_curry_quarter": "₹120",
+    "egg_masala_full": "₹160",
+    "butter_chicken_curry": "Ask in-store",
+    "mutton_curry_full": "₹400"
   },
   "breads": {
     "rumali_roti": "₹8",
