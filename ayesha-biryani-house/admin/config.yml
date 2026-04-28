@@ -4,6 +4,9 @@ backend:
   branch: main
   base_url: https://api.netlify.com
 
+site_url: https://ayeshabiryanihousee.netlify.app
+display_url: https://ayeshabiryanihousee.netlify.app
+
 media_folder: ayesha-biryani-house/images
 public_folder: images
 
